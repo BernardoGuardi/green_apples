@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Kytaristé</title>
+</head>
+<h1 align="center"> Výběr nejlepších kytaristů světa</h1>
+<br />
+<br />
+<br />
+<p>
+    Zde bych vám rád představil můj výběr nejvýznamnějších kytaristů světa.
+    <br />
+    Nebyli vybráni podle jejich slávy a známosti obecně mezi lidmi,
+    <br />
+    nýbrž jejich vlivem celkový vývoj žánru a originalitou vlastní tvorby.
+</p>
+<br />
+<br />
+<br />
+<div>
+    <table border="1px">
+        <tr>
+            <td align="center"><b>Kytaristé</b></td>
+        </tr>
+        <tr>
+            <td><a href="Jimmy_Hendrix.html" target="hlavni">Jimmy Hendrix</a></td>
+        </tr>
+        <tr>
+            <td><a href="Joe_Satriani.html" target="hlavni">Joe Satriani</a></td>
+        </tr>
+        <tr>
+            <td><a href="Kirk_Hammet.html" target="hlavni">Kirk Hammet</a></td>
+        </tr>
+        <tr>
+            <td><a href="Buckethead.html" target="hlavni">Buckethead</a></td>
+        </tr>
+    </table>
+</div>
+<br />
+<br />
+<br />
+
+A obecně pro fanoušky rocku a metalu doporučuji k prohlédnutí Spark magazínu, jeho nahlédnutí je níže.
+<br />
+<br />
+<div>
+    <iframe src="https://www.spark-rockmagazine.cz/" width="660" height="400"></iframe>
+</div>
+</body>
+</html>
