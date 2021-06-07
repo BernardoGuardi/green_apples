@@ -1,0 +1,236 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Periodická soustava prvků</title>
+</head>
+<body>
+<!-- the top of RH cells -->
+<table align="center" width="50%">
+    <tr>
+        <td>
+            -
+        </td>
+        <td align="center">
+            R<sub>2</sub>O <br/> RH
+        </td>
+        <td align="center">
+            RO <br/> RH<sub>2</sub>
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+
+        <td align="center">
+            R<sub>2</sub>O<sub>3</sub> <br/> RH<sub>3</sub>
+        </td>
+        <td align="center">
+            RO<sub>2</sub> <br/> RH<sub>4</sub>
+        </td>
+        <td align="center">
+            RO<sub>5</sub> <br/> RH<sub>3</sub>
+        </td>
+        <td align="center">
+            RO<sub>3</sub> <br/> H<sub>2</sub>R
+        </td>
+        <td align="center">
+            R<sub>2</sub>O<sub>7</sub> <br/> HR
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+    <!-- the bottom of RH cells -->
+    <!-- 1. row of the periodic table -->
+    <tr>
+        <td align="right">
+            -
+        </td>
+        <td align="center">
+            <b>1</b> <br/> <sub>I. A</sub>
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td>
+            -
+        </td>
+        <td align="center">
+            <b>18</b> <br/> <sub>VIII. A</sub>
+        </td>
+    </tr>
+    <tr>
+        <td align="right" >
+            1
+        </td>
+        <td align="center" bgcolor="#9acd32">
+            1,0079 <br/> <sub>1</sub> <b>H</b> <br/> 2,20 <br/> Vodík
+        </td>
+        <td align="center">
+            <b>2</b> <br/> II. A
+        </td>
+        <td align="center" colspan="10">
+            Periodická soustava prvků
+        </td>
+        <td align="center">
+            <b>13</b> <br/> III. A
+        </td>
+        <td align="center">
+            <b>14</b> <br/> IV. A
+        </td>
+        <td align="center">
+            <b>15</b> <br/> V. A
+        </td>
+        <td align="center">
+            <b>16</b> <br/> VI. A
+        </td>
+        <td align="center">
+            <b>17</b> <br/> VII. A
+        </td>
+        <td align="center" bgcolor="yellow">
+            4,00 <br/> <sub>2</sub> <b>He</b> <br/> <br/> Helium
+        </td>
+    </tr>
+    <!-- the end of 1. row of periodic table -->
+    <!-- 2. row of the periodic table -->
+    <tr>
+        <td align="right">
+            2
+        </td>
+        <td align="center" bgcolor="cd5c5c">
+            6,94 <br/> <sub>3</sub> <b>Li</b> <br/> 0,97 <br/> Lithium
+        </td>
+        <td align="center" bgcolor="#6495ed">
+            9,01 <br/> <sub>4</sub> <b>Be</b> <br/> 1,50 <br/> Berylum
+        </td>
+        <td>
+            -
+        </td>
+        <td align="center" bgcolor="#cd5c5c">
+            alkalické <br/>kovy
+        </td>
+        <td align="center" bgcolor="orange">
+            kovy <br/> alkalických <br/> zemin
+        </td>
+        <td align="center" bgcolor="#9370db">
+            přechodné <br/>kovy
+        </td>
+        <td align="center" bgcolor="#6495ed">
+            kovy
+        </td>
+        <td align="center" bgcolor="#add8e6">
+            polokovy
+        </td>
+        <td align="center" bgcolor="#9acd32">
+            nekovy
+        </td>
+        <td align="center" bgcolor="blue">
+            halogeny
+        </td>
+        <td align="center" bgcolor="yellow">
+            vzácné <br/>plyny
+        </td>
+        <td>
+            -
+        </td>
+        <td align="center" bgcolor="#add8e6">
+            10,81 <br/> <sub>5</sub> <b>B</b> <br/> 2,00 <br/> Bor
+        </td>
+        <td align="center" bgcolor="#9acd32">
+            12,01 <br/> <sub>6</sub> <b>C</b> <br/> 2,50 <br/> Uhlík
+        </td>
+        <td align="center" bgcolor="#9acd32">
+            14,01 <br/> <sub>7</sub> <b>N</b> <br/> 3,10 <br/> Dusík
+        </td>
+        <td align="center" bgcolor="#9acd32">
+            16,00 <br/> <sub>8</sub> <b>0</b> <br/> 3,50 <br/> Kyslík
+        </td>
+        <td align="center" bgcolor="blue">
+            19,00 <br/> <sub>9</sub> <b>F</b> <br/> 4,10 <br/> Fluor
+        </td>
+        <td align="center" bgcolor="yellow">
+            20,18 <br/> <sub>10</sub> <b>Ne</b> <br/> <br/> Neon
+        </td>
+    </tr>
+    <!-- the end of 2. row of periodic table -->
+    <!-- 3. row of the periodic table -->
+    <tr>
+        <td align="right">
+            3
+        </td>
+        <td align="center" bgcolor="cd5c5c">
+            22,99 <br/> <sub>11</sub> <b>Na</b> <br/> 1,00 <br/> Sodík
+        </td>
+    </tr>
+    <!-- the end of 3. row of periodic table -->
+</table>
+</body>
+</html>
