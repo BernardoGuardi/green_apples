@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Šachovnice</title>
+</head>
+<body>
+<table border="0" align="center" width="100%" height="100%">
+    <tr>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\vez_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\kun_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\strelec_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\kral_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\dama_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\strelec_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\kun_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\vez_black.png" width="50" height="50">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_white.png" width="50" height="50">
+        </td>
+        <td bgcolor="#00000" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_black.png" width="50" height="50">
+        </td>
+        <td bgcolor="#fffff" align="center">
+            <img src="C:\Users\dpelt\Desktop\chess black\pesec_white.png" width="50" height="50">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+        white
+    </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+        white
+    </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        </td><td bgcolor="#fffff">
+        white
+    </tr>
+    <tr>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+        white
+    </td>
+        <td bgcolor="#00000">
+            black
+        </td><td bgcolor="#fffff">
+        white
+    </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+        <td bgcolor="#00000">
+            black
+        </td>
+        <td bgcolor="#fffff">
+            white
+        </td>
+    </tr>
+</table>
+</body>
+</html>
