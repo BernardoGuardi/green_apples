@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gravitace - Obecná relativita</title>
+</head>
+<body>
+
+<img src="C:\Users\dpelt\Desktop\coding\astrofyzika_b.gif" width="206" height="40">
+<br/>
+<br/>
+<img src="C:\Users\dpelt\Desktop\coding\sym_astro_b.gif" width="130" height="100">
+
+<p align="center">
+    <h1>GRAVITACE | OBECNÁ RELATIVITA</h1>
+</p>
+<p align="center">
+    <h2>Trocha historie</h2>
+</p>
+<p>
+    Gravitační interakce se od všech ostatních výrazně odlišuje. Jako jediná působí na všechny částice. Toto působení má zvláštní charakter: Testovací (malá) tělesa se v gravitačním poli pohybují po stejných trajektoriích. Už Galileo Galilei věděl, že doba volného pádu malé kuličky i velkého kamene je v tíhovém poli Země shodná. (Nesmí jít například o pírko, kde je podstatnou silou odpor vzduchu.) To je důsledkem tzv. principu ekvivalence mezi setrvačnou a gravitační hmotou. Hmota se projevuje setrvačnými a gravitačními účinky a ty jsou si úměrné. Nelze proto od sebe odlišit setrvačné a gravitační jevy. Je jedno, zda se nacházíme v urychlovaném výtahu, tj. neinerciální soustavě, nebo v tíhovém poli se stejným gravitačním zrychlením. V obou soustavách dopadnou experimenty stejně. To vedlo Alberta Einsteina k zobecnění speciální relativity platící v inerciálních soustavách na veškeré souřadnicové systémy a ke vzniku obecné relativity, jejíž kostru dokončil v roce 1915.
+</p>
+<p>
+    Právě univerzálnost gravitační interakce a jednotná odezva všech testovacích částic na zdroj gravitačního pole vedla k přehodnocení klasického pojmu síly. Zakřivení trajektorií již není způsobeno těžko definovatelnou silou, ale vlastnostmi času a prostoru. V obecné relativitě sama tělesa zakřivují čas a prostor a v tomto zakřiveném časoprostoru se pohybují po nejrovnějších možných drahách – geodetikách. Například volný pád všech těles probíhá stejně proto, že se pohybují v časoprostoru zakřiveném Zemí a toto zakřivení je pro všechna tělesa stejné. Prostor a čas v obecné relativitě bez samotných těles neexistují. Tělesa sama časoprostor vytvářejí. Zakřivení časoprostoru je matematicky popisováno metrickým tenzorem – jde vlastně o koeficienty gμν v Pythagorově větě, které určují vlastnosti času a prostoru.
+</p>
+
+<table align="center" border="1">
+    <tr>
+        <td colspan="2" align="center" bgcolor="#d3d3d3" height="30">
+            Základní metriky
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" width=270" height="60">
+            dt<sup>2</sup> = dx<sup>2</sup> + dy<sup>2</sup> + dz<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width=230" height="60">
+            <i>Kartézská metrika</i> – kvadrát vzdálenosti v kartézském souřadnicovém systému.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" width="270" height="60">
+            ds<sup>2</sup> = −c<sup>2</sup>dt<sup>2</sup> + dx<sup>2</sup> + dy<sup>2</sup> + dz<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width=230" height="60">
+            <i>Minkowského metrika</i> – časoprostorový interval ve speciální relativitě.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" width="270" height="60">
+            ds<sup>2</sup> =  g<sub>00</sub>dt<sup>2</sup> + g<sub>11</sub>dx<sup>2</sup> + g<sub>22</sub>dy<sup>2</sup> + g<sub>33</sub>dz<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width=230" height="60">
+            <i>Riemannova metrika</i> – metrika v obecné relativitě (v ortogonálním systému souřadnic).
+        </td>
+    </tr>
+</table>
+<p>
+    Koeficienty gμν jsou netriviální buď v křivočarých souřadnicích, nebo v křivém časoprostoru. Sám pojem souřadnic v obecné relativitě ustupuje do pozadí, význam mají měřitelné efekty na gravitujících tělesech. Ve čtyřrozměrném časoprostoru existuje 16 koeficientů gμν, ty jsou ale symetrické, takže nezávislých je jich jen 10. Albert Einstein nalezl diferenciální rovnice druhého řádu rovnice pro metrické koeficienty gμν. Své rovnice představil před Pruskou akademií věd na podzim roku 1915. První řešení pro sféricky symetrické gravitační pole kolem centrálního tělesa nalezl Karl Schwarzschild v roce 1916. Jeho řešení ve velké vzdálenosti od zdroje přechází v Minkowského metriku speciální relativity, pohyby těles ve větších vzdálenostech od zdroje jsou shodné s pohyby v Newtonově teorii. V silnějších polích (blíže ke zdroji) je ale v předpovědích možné pozorovat rozdíly. Světelný paprsek se zakřivuje, dráhy těles nejsou uzavřené elipsy, dochází ke stáčení celé trajektorie, hodiny jdou v různých místech gravitačního pole různě a pro vnějšího pozorovatele není možné pozorovat děje pod tzv. Schwarzschildovým poloměrem. Je-li těleso vytvářející pole pod Schwarzschildovým poloměrem, jedná se o černou díru.
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\Spacetime_curvature.jpg" height="338" width="500" align="center">
+<p align="center">
+    Každé těleso kolem sebe zakřivuje a spoluvytváří jemné
+    <br/>
+    předivo času a prostoru. Zdroj: ESA.
+</p>
+<p>
+    Jiným důležitým řešením rovnic obecné relativity je Fridmanovo řešení z roku 1922, podle kterého nemůže být homogenní izotropní vesmír  statický, musí se rozšiřovat nebo smršťovat. Nezávisle řešil Einsteinovy rovnice pro modely vesmíru belgický kněz George Lemaître. Jeho články ale vycházely v místních časopisech a nedostaly se k ostatním kosmologům. Lemaître také navrhl hypotézu prvotního atomu – velmi husté malé oblasti, z níž vznikl celý vesmír. V roce 1948 tuto hypotézu v poněkud jiné podobě rozpracoval americký fyzik George Gamow se spolupracovníky. Pro jeho teorii hustého a horkého původu světa se ujal název Velký třesk.
+</p>
+<p>
+    Z rovnic obecné relativity plyne i mnoho dalších jevů. Hned v roce 1916 Albert Einstein předpověděl existenci gravitačních vln – jemných opakujících se záhybů v předivu časoprostoru, které se pohybují rychlostí světla napříč vesmírem. Přesně po sto letech bylo v roce 2016 oznámeno na mimořádné tiskové konferenci jejich zachycení. Uveďme nyní některé jevy, které obecná relativita předpověděla a které neplynou z Newtonova pojetí gravitace:
+</p>
+<table align="center" width="500" height="230" border="1" bgcolor="#d3d3d3">
+    <tr>
+        <td align="left">
+            - zakřivení světelného paprsku v gravitačním poli (1,75" u povrchu Slunce),<br/>
+            - gravitační čočky (první objevena v roce 1979),<br/>
+            - stáčení perihelia planet (zejména Merkuru, kde jde o 43" za století),<br/>
+            - gravitační červený posuv (změna frekvence fotonů opouštějících těleso),<br/>
+            - zpoždění elektromagnetického signálu,<br/>
+            - kosmologický červený posuv způsobený expanzí vesmíru,<br/>
+            - Lensův-Thirringův jev (strhávání časoprostoru rotujícím tělesem),<br/>
+            - gravitační vlny,<br/>
+            - černé díry,<br/>
+            - rozpínání vesmíru,<br/>
+            - neeukleidovská geometrie časoprostoru.
+        </td>
+    </tr>
+</table>
+<img src="C:\Users\dpelt\Desktop\coding\otr-tvurci.jpg" width="500" height="500">
+<p align="center">
+    Osobnosti, které nacházely první řešení nových rovnic obecné relativity,
+    <br/>
+    nové teorie gravitace: Einstein, Schwarzschild, Lemaître a Fridman.
+</p>
+<p>
+<h2>Základní principy obecné relativity</h2>
+</p>
+<table border="1" align="center">
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="70">
+            klasická
+            <br/>
+            relativita
+        </td>
+        <td bgcolor="#def" width="390" height="70">
+            Mechanické děje dopadnou ve všech inerciálních soustavách stejně. Žádný z inerciálních systémů není nijak privilegován.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="95">
+            speciální
+            <br/>
+            relativita
+        </td>
+        <td bgcolor="#def" width="390" height="95">
+            Mechanické i elektromagnetické děje dopadnou ve všech inerciálních soustavách stejně. Žádný z inerciálních systémů není nijak privilegován. Rychlost světla je ve všech inerciálních soustavách stejná.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="160">
+            obecná
+            <br/>
+            relativita
+        </td>
+        <td bgcolor="#def" width="390" height="160">
+            1. Všechny děje dopadnou v libovolném souřadnicovém systému stejně. Žádný systém není nijak privilegován.<br/>
+            2. Gravitaci a setrvačné děje od sebe nelze odlišit. V urychlující se raketě dochází ke stejným dějům jako ve skutečném gravitačním poli. Naopak ve volně padajícím letadle pociťujeme stav beztíže a gravitační pole nevnímáme. Bohužel jen na chvíli. Vyjádřením tohoto faktu je tzv. princip ekvivalence.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="110">
+            (slabý) princip
+            <br/>
+            ekvivalence
+        </td>
+        <td bgcolor="#def" width="390" height="110">
+            Setrvačná a gravitační hmotnost jsou si navzájem úměrné, při vhodné volbě jednotek jsou si rovné. Princip ekvivalence vede k nerozlišitelnosti setrvačných a gravitačních jevů a umožňuje popisovat gravitaci za pomocí křivého časoprostoru.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="70">
+            silný princip
+            <br/>
+            ekvivalence
+        </td>
+        <td bgcolor="#def" width="390" height="70">
+            Energie odpovídající elektromagnetickému poli se také projevuje jako setrvačná hmotnost. I tato hmotnost má své gravitační účinky.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="55">
+            velmi silný
+            <br/>
+            princip ekvivalence
+        </td>
+        <td bgcolor="#def" width="390" height="55">
+            Energie, která by odpovídala samotnému gravitačnímu poli, má také projevy jako setrvačná a gravitační hmotnost.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="135" height="125">
+            matematický
+            <br/>
+            popis OTR
+        </td>
+        <td bgcolor="#def" width="390" height="125">
+            1. Každé těleso zakřivuje prostor a čas kolem sebe.<br/>
+            2. V tomto pokřiveném světě se tělesa pohybují po nejrovnějších možných drahách (geodetikách).<br/>
+            <br/>
+            Tělesa časoprostor sama vytvářejí, bez nich časoprostor neexistuje a nemá smysl.
+        </td>
+    </tr>
+</table>
+<p>
+    <h2>Princip ekvivalence</h2>
+</p>
+<p>
+    Hmotnost lze určovat ze setrvačných účinků těles (schopnosti setrvávat v daném pohybovém stavu) nebo z gravitačních účinků (schopnosti všech těles se přitahovat). Z experimentů se ukazuje, že obě hmotnosti jsou si úměrné a při vhodné volbě jednotek rovné. V Newtonově gravitačním zákonu se potom setrvačná hmotnost pokrátí s gravitační hmotností tělesa (například pro volný pád platí ms d2y/dt2 = mg g) a všechna tělesa se budou pohybovat po stejných trajektoriích. V malé volně gravitující kleci (padající výtah) se proto tělesa chovají jako ve stavu beztíže a naopak v urychlované kleci se tělesa chovají jako v tíhovém poli. V prostorově malé kleci v dosti krátkém časové okamžiku nerozlišíme gravitační a setrvačné efekty. Hledaný inerciální systém, ve kterém platí zákony speciální teorie relativity, lze realizovat jako po krátkou dobu volně gravitující (padající) klec malých rozměrů. Jde o tzv. lokální inerciální systém (LIS). Nejlépe snad lze zavedení LIS pochopit v experimentu Harolda Waaga. Představme si tři propojené rovnoběžné desky s otvory na přímce. K první desce je připojeno zařízení vrhající kuličku, k poslední vak, který ji zachytí. Je-li zařízení v klidu vzhledem k povrchu Země (stojí na Zemi, visí na laně), kulička díky tíhovému poli neprojde až do vaku. Je to tím, že systém není inerciální a tělesa se nepohybují rovnoměrně přímočaře. Přestřihneme-li závěs a zařízení bude padat volným pádem, stává se lokálním inerciálním systémem (LIS), tělesa se pohybují rovnoměrně příločaře a kulička dopadne do záchytného vaku.
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\HaroldWaag.png" width="500" height="297">
+<p align="center">
+    Experiment Harolda Waaga ukazuje jednoduchou realizaci lokální inerciální soustavy.
+</p>
+<p>
+    Princip ekvivalence byl poprvé ověřen v experimentech, které prováděl maďarský fyzik baron Loránd Eötvös od roku 1885. Nejpreciznější experimenty uskutečnil v letech 1906 až 1909. Dvě tělesa umístnil na konce vodorovného ramene. Celé rameno pak viselo na torzním vlákně. Na tělesa působila jak gravitační síla Země (ta reaguje na gravitační hmotnost), tak odstředivá síla (ta reaguje na setrvačnou hmotnost). Pokud by obě hmotnosti nebyly stejné (nebo alespoň sobě úměrné), na zavěšená tělesa by působil krutný moment, který by pootočil závěsem. V experimentech Eötvös spolu s dalšími kolegy prokázal rovnost gravitační a setrvačné hmotnosti s relativní přesností 10−9. Experimenty byly v různých variantách (například působení Slunce na dvojici těles Země-Měsíc) mnohokrát zopakovány a dosud nejvyšší relativní přesnosti (10−15) by mělo být vbrzku dosaženo při experimentu na palubě francouzského mikrosatelitu MICROSCOPE (Micro-Satellite à traînée Compensée pour l'Observation du Principe d'Equivalence) v roce 2017, viz AB 17/2017).
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\MICROSCOPE.jpg" width="500" height="375">
+<table align="center">
+    <tr>
+        <td width="525" align="justify">
+            Příprava mikrosatelitu MICROSCOPE v laboratořích francouzské kosmické agentury CNES v Toulouse. Testován je volný pád dvou těles různého složení (jedno je z titanu a druhé ze slitiny platiny a rhodia). Mikrosatelit startoval dne 2. května 2016 a měl by fungovat dva roky. Zdroj: CNES.
+        </td>
+    </tr>
+</table>
+<p>
+    <h2>Stavba obecné relativity</h2>
+</p>
+<p>
+    Tělesa pohybující se pod vlivem gravitačních polí se díky ekvivalenci setrvačné a gravitační hmotnosti pohybují po stejných trajektoriích (pokud je jejich vlastní pole zanedbatelné). Například cihla a malá kulička padající ze stejné výšky dopadnou na zem za stejný čas. To přivedlo Alberta Einsteina k myšlence, že křivost trajektorií je vlastností samotného prostoru a času. Prostor a čas je zakřiven a tělesa se pohybují po rovných drahách v tomto křivém prostoru (lépe časoprostoru, časovou souřadnici nikdy ze svých úvah nemůžeme vynechat). Dva kameny na následujícím obrázku se podle newtonovské teorie potkají proto, že Slunce na ně působí gravitační silou, která zakřivuje jejich dráhu v prostoru. Podle obecné relativity se oba kameny pohybují po „přímkách“, ale v křivém čase a prostoru. Zakřivení času a prostoru samozřejmě způsobuje Slunce.
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\sutry.gif" height="253" width="500">
+<p>
+    Zakřivení třídimenzionálního prostoru si můžeme jen dosti těžko představit. Celkem bez problému si ale představíme zakřivenou dvojdimenzionální plochu (povrch jablka, míče, sedlo koně, reliéf krajiny). Nejkratší spojnicí dvou bodů na takto zakřivené ploše již není přímka. Je to křivka, kterou nazýváme geodetika. Jak si ale představit zakřivení v čase? Kupodivu je to velmi jednoduché. Zakřivení časové osy vlastně neznamená nic jiného než různý chod hodin v různých místech. Různě vysoko nad povrchem Země jdou hodiny různě. Na časovou osu nesmíme nikdy zapomínat. Ukažme si to na jednoduchém příkladě: Z nějakého místa na povrchu Země hodíme kámen a poté pod menším úhlem vystřelíme střelu tak, aby obě tělesa dopadla stejně daleko. Na první pohled se zdá, že něco je špatně. Prostor je zakřiven přítomností Země, a tak by se kámen i střela měly pohybovat po stejných křivkách. Zapomněli jsme ale na časovou osu. Na obrázku vpravo je stejná situace zakreslena i s časem. Vidíme, že kámen i střela se pohybují různými místy časoprostoru. Jestliže na časové a prostorových osách zvolíme stejné jednotky (to lze zařídit například tak, že místo času budeme používat kombinaci ct), zjistíme, že obě trajektorie mají v časoprostoru stejnou křivost.
+</p>
+<table align="center">
+    <tr>
+        <td bgcolor="#d3d3d3">
+            <img src="C:\Users\dpelt\Desktop\coding\strela.png" width="480" height="197">
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#d3d3d3">
+           1. Každé těleso zakřivuje prostor a čas kolem sebe (prostor i čas!).
+            <br/>
+           2. Tělesa se pohybují v křivém světě po geodetikách (nejrovnějších drahách).
+        </td>
+    </tr>
+</table>
+<p>
+    Matematické zpracování postulátů OTR může být značně obtížné, využívá se poznatků z diferenciální geometrie a problémy gravitace se převádějí na geometrické vlastnosti prostoru a času. Nicméně základní myšlenky OTR jsou jednoduché a přímočaré.
+</p>
+<p>
+    Jaký je vztah mezi obecnou a speciální relativitou? Obecná relativita platí v jakémkoli souřadnicovém systému, třeba zrychleném, rotujícím a podobně. Speciální relativita platí jen v inerciálních systémech. Ty, jak víme, existují jen lokálně. Lze je vybudovat jako klece malých rozměrů volně padající v prostoru po krátkou dobu. Chceme-li například sledovat pohyb světelného paprsku v blízkosti Slunce v rámci speciální relativity, musíme v každém místě, do kterého se paprsek dostane, vybudovat LIS, v něm pohyb vyřešit (uvnitř LIS je to pohyb po přímce, ale celá klec padá volným pádem, a pro vnějšího pozorovatele je proto trajektorie paprsku zakřivena). Přejdeme k dalšímu LIS, opět pohyb vyřešíme atd. Výsledný pohyb bude integrací pohybů v jednotlivých LIS. Pomocí rovnic obecné relativity můžeme najít přímo řešení celého pohybu bez zavádění lokálně inerciálních systémů.
+</p>
+<p>
+    <h2>Zakřivení prostoru a času</h2>
+</p>
+<p>
+    V zakřiveném prostoru (například na povrchu koule) již neplatí známé vztahy z Eukleidovské geometrie. Součet úhlů v trojúhelníku není 180°, obvod kružnice není 2πr, plocha koule není 4πr2, čtyři kolmé přímky nevytvoří obdélník, atd. Důsledkem zakřivení prostoru kolem našeho Slunce je například stáčení  perihélia Merkuru a odklon světelného paprsku hvězd od přímky. Kdybychom měřili poloměr Slunce ze skutečných radiálních měření, bude se nalezená hodnota lišit v důsledku zakřivení prostoru od hodnoty získané z měření plochy povrchu Slunce, r = (S/4π)1/2, o šestinu Schwarzschildova poloměru, což činí 0,5 kilometru. Dalším projevem zakřivení prostoru jsou gravitační čočky. Hmotný objekt ležící mezi zdrojem záření a pozorovatelem zakřivuje světelné paprsky podobně jako skleněná čočka v laboratoři.
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\lense.jpg" width="500" height=313">
+<p align="center">
+    Princip gravitační čočky. Zdroj: ALMA.
+</p>
+<p>
+    Zakřivení času znamená, že hodiny jdou v různých místech různě. Zakřivení času v okolí naší Země bylo poprvé měřeno už v roce 1960, jako hodiny tenkrát posloužily fotony vysílané radioaktivním kobaltem 60C. Měření zakřivení času je věnován bulletin AB 10/2010. V současnosti se se zakřivením času naší Zemí asi nejčastěji setkáme při používání polohovacího zařízení GPS v automobilu. V našem autě jde čas jinak než na družici nacházející se ve výšce 20 000 km, se kterou náš přijímač komunikuje. Pokud by nedošlo k přepočtení obou časů, rozešla by se v naší zeměpisné šířce určovaná poloha od skutečné za 24 hodin o celých 8 kilometrů. Některé nesymetrické objekty mohou dokonce generovat periodické zakřivení času a prostoru, které se od nich šíří v podobě gravitační vlny. Gravitační vlny byly poprvé zachyceny v roce 2015 (viz AB 6/2016) Detaily o hledání gravitačních vln naleznete na stránce Testy obecné relativity.
+</p>
+<img src="C:\Users\dpelt\Desktop\coding\gw.jpg" width="500" height="340">
+<p align="center">
+    Gravitační vlny jsou jemné záhyby časoprostoru šířící se rychlostí světla.
+    <br/>
+    Zdroj: Pierre Binétruy, APC, Paris.
+</p>
+<p>
+    <h2>Některé užitečné vztahy</h2>
+</p>
+<table align="center" border="1">
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="70">
+            Δω/ω<sub>0</sub> = –Δλ/λ<sub>0</sub> = Δϕ/c<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width="250" height="70">
+            Změna frekvence fotonu způsobená změnou gravitačního potenciálu <i>ϕ</i>. V tíhovém poli je Δϕ = gΔl.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" width="250" height="80">
+            <img src="C:\Users\dpelt\Desktop\coding\met_schw.gif" width="214" height="68">
+        </td>
+        <td bgcolor="#def" width="250" height="80">
+            Schwarzschildova metrika. Tvar intervalu ve sférických souřadnicích v okolí sféricky symetrického tělesa.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="70">
+            r<sub>g</sub> = 2GM/c<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width="250" height="70">
+            Schwarzschildův poloměr. Poloměr, z pod kterého se od hmotného tělesa nemůže vzdálit ani světlo
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="70">
+            M, L, Q = const
+        </td>
+        <td bgcolor="#def" width="250" height="70">
+            „No hair“ teorém. Černá díra si ponechává jen informaci o hmotnosti, momentu hybnosti a náboji
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="120">
+            ΣS<sub>k</sub>(t) ≤ ΣS<sub>k</sub>(t+Δt)
+        </td>
+        <td bgcolor="#def" width="250" height="120">
+            Termodynamika černých děr. Ať probíhají jakékoli procesy včetně spojování černých děr, celkový povrch se nezmenší. Povrch černé díry v jistém smyslu představuje pojem entropie klasického souboru částic
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" width="250" height="70">
+            <img src="C:\Users\dpelt\Desktop\coding\met_frwl.gif" width="206" height="46">
+        </td>
+        <td bgcolor="#def" width="250" height="70">
+            Fridmanova-Lemaitre-Robertsonova-Walkerova metrika rozpínajícího se vesmíru
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="80">
+            H<sup>2</sup> – 8/3 πGρ = –c<sup>2</sup>k/a<sup>2</sup>
+        </td>
+        <td bgcolor="#def" width="250" height="80">
+            Einsteinova-Fridmanova rovnice. Diferenciální rovnice pro expanzní funkci a(t). Veličina k je křivost vesmíru.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="100">
+            H ≡ (da/dt)/a
+        </td>
+        <td bgcolor="#def" width="250" height="100">
+            Hubblova konstanta. Udává koeficient úměrnosti mezi rychlostí rozpínání vesmíru a vzdáleností objektu. Z pozorování: H ~ (68±4) km s<sup>−1</sup> Mpc<sup>−1</sup>.
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="80">
+            ρ<sub>C</sub> = 3H<sup>2</sup>/(8πG)
+        </td>
+        <td bgcolor="#def" width="250" height="80">
+            Kritická hustota. Hustota, při níž se ve Fridmanově řešení mění otevřený (stále se rozpínající) vesmír na uzavřený (v budoucnu kolabující).
+        </td>
+    </tr>
+    <tr>
+        <td bgcolor="#ffCC99" valign="top" width="250" height="100">
+            z = Δλ/λ<sub>0</sub> = [a(t) – a(t<sub>0</sub>)]/a(t<sub>0</sub>)
+        </td>
+        <td bgcolor="#def" width="250" height="100">
+            Kosmologický posuv. Změna frekvence vyzařovaného světla způsobená změnou geometrie prostředí, kterým se světlo šíří, tedy rozpínáním vesmíru.
+        </td>
+    </tr>
+</table>
+<br/>
+<br/>
+<br/>
+<img src="C:\Users\dpelt\Desktop\coding\ald_small_b.gif" height="85" width="85">
+</body>
+</html>
