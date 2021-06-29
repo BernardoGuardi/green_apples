@@ -1,4 +1,50 @@
-.uspel {color: green;}
-.neuspel {color: red;}
+.uspel
+{
+    color: green
+}
+.neuspel
+{
+    color: red
+}
+.trida
+{
+    font-size: 250%
+}
 
-.trida {font-size: 250%;}
+.rh_skupiny
+{
+    background-color: slategrey
+}
+
+.alkalicke_kovy
+{
+    background-color: #cd5c5c
+}
+.kovy_alkalickych_zemin
+{
+    background-color: orange
+}
+.prechodne_kovy
+{
+    background-color: #9370db
+}
+.kovy
+{
+    background-color: #6495ed
+}
+.polokovy
+{
+    background-color: #add8e6
+}
+.nekovy
+{
+    background-color: #9acd32
+}
+.halogeny
+{
+    background-color: blue
+}
+.vzacne_plyny
+{
+    background-color: yellow
+}
