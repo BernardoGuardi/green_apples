@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Periodická soustava prvků</title>
+    <link rel="stylesheet" type="text/css" href="CSS_styly.css">
 </head>
 <body>
 <!-- the top of RH cells -->
@@ -10,51 +11,55 @@
         <td align="center" width="15px">
 
         </td>
-        <td align="center">
-            R<sub>2</sub>O <br/> RH
+        <td align="center" class="rh_skupiny">
+            <strong>R<sub>2</sub>O <br/> RH</strong>
         </td>
-        <td align="center">
-            RO <br/> RH<sub>2</sub>
+        <td align="center" class="rh_skupiny">
+            <strong>RO <br/> RH<sub>2</sub></strong>
         </td>
-        <td colspan="10">
+        <td colspan="10" class="rh_skupiny">
         </td>
-        <td align="center">
-            R<sub>2</sub>O<sub>3</sub> <br/> RH<sub>3</sub>
+        <td align="center" class="rh_skupiny">
+            <strong>R<sub>2</sub>O<sub>3</sub> <br/> RH<sub>3</sub></strong>
         </td>
-        <td align="center">
-            RO<sub>2</sub> <br/> RH<sub>4</sub>
+        <td align="center" class="rh_skupiny">
+            <strong>RO<sub>2</sub> <br/> RH<sub>4</sub></strong>
         </td>
-        <td align="center">
-            RO<sub>5</sub> <br/> RH<sub>3</sub>
+        <td align="center" class="rh_skupiny">
+            <strong>RO<sub>5</sub> <br/> RH<sub>3</sub></strong>
         </td>
-        <td align="center">
-            RO<sub>3</sub> <br/> H<sub>2</sub>R
+        <td align="center" class="rh_skupiny">
+            <strong>RO<sub>3</sub> <br/> H<sub>2</sub>R</strong>
         </td>
-        <td align="center">
-            R<sub>2</sub>O<sub>7</sub> <br/> HR
+        <td align="center" class="rh_skupiny">
+            <strong>R<sub>2</sub>O<sub>7</sub> <br/> HR</strong>
         </td>
-        <td width="80px">
+        <td width="80px" class="rh_skupiny">
         </td>
     </tr>
     <!-- the bottom of RH cells -->
     <tr>
         <td width="15px">
         </td>
-        <td align="center">
-            <b>1</b> <br/> <sub>I. A</sub>
+        <td align="center" height="80">
+            <b>1</b>
+            <br/>
+            <small>I. A</small>
         </td>
-        <td colspan="16">
+        <td colspan="16" height="80">
         </td>
-        <td align="center">
-            <b>18</b> <br/> <sub>VIII. A</sub>
+        <td align="center" height="80">
+            <b>18</b>
+            <br/>
+            <small>VIII. A</small>
         </td>
     </tr>
     <!-- 1. row of the periodic table -->
     <tr>
         <td align="right" >
-            1
+            <b>1</b>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80" height="100">
             <small>1,0079</small>
             <br/>
             <small>1</small> <b>H</b>
@@ -84,7 +89,7 @@
         <td align="center">
             <b>17</b> <br/> VII. A
         </td>
-        <td align="center" bgcolor="yellow" width="80px" height="100">
+        <td align="center" class="vzacne_plyny" width="80" height="100">
             <small>4,00</small>
             <br/>
             <small>2</small> <b>He</b>
@@ -97,9 +102,9 @@
     <!-- 2. row of the periodic table -->
     <tr>
         <td align="right">
-            2
+            <b>2</b>
         </td>
-        <td align="center" bgcolor="cd5c5c" width="80px" height="100">
+        <td align="center" class="alkalicke_kovy" width="80" height="100">
             <small>6,94</small>
             <br/>
             <small>3</small> <b>Li</b>
@@ -108,7 +113,7 @@
             <br/>
             <small>Lithium</small>
         </td>
-        <td align="center" bgcolor="#6495ed" width="80px" height="100">
+        <td align="center" class="kovy" width="80" height="100">
             <small>9,01</small>
             <br/>
             <small>4</small> <b>Be</b>
@@ -120,33 +125,33 @@
         <td align="center" width="80" height="100">
 
         </td>
-        <td align="center" bgcolor="#cd5c5c">
+        <td align="center" class="alkalicke_kovy">
             alkalické <br/>kovy
         </td>
-        <td align="center" bgcolor="orange">
+        <td align="center" class="kovy_alkalickych_zemin">
             kovy <br/> alkalických <br/> zemin
         </td>
-        <td align="center" bgcolor="#9370db">
+        <td align="center" class="prechodne_kovy">
             přechodné <br/>kovy
         </td>
-        <td align="center" bgcolor="#6495ed">
+        <td align="center" class="kovy">
             kovy
         </td>
-        <td align="center" bgcolor="#add8e6">
+        <td align="center" class="polokovy">
             polokovy
         </td>
-        <td align="center" bgcolor="#9acd32">
+        <td align="center" class="nekovy">
             nekovy
         </td>
-        <td align="center" bgcolor="blue">
+        <td align="center" class="halogeny">
             halogeny
         </td>
-        <td align="center" bgcolor="yellow">
+        <td align="center" class="vzacne_plyny">
             vzácné <br/>plyny
         </td>
         <td width="80" height="100">
         </td>
-        <td align="center" bgcolor="#add8e6" width="80px" height="100">
+        <td align="center" class="polokovy" width="80px" height="100">
             <small>10,81</small>
             <br/>
             <small>5</small> <b>B</b>
@@ -155,7 +160,7 @@
             <br/>
             <small>Bor</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>12,01</small>
             <br/>
             <small>6</small> <b>C</b>
@@ -164,7 +169,7 @@
             <br/>
             <small>Uhlík</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>14,01</small>
             <br/>
             <small>7</small> <b>N</b>
@@ -173,7 +178,7 @@
             <br/>
             <small>Dusík</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>16,00</small>
             <br/>
             <small>8</small> <b>0</b>
@@ -182,7 +187,7 @@
             <br/>
             <small>Kyslík</small>
         </td>
-        <td align="center" bgcolor="blue" width="80px" height="100">
+        <td align="center" class="halogeny" width="80px" height="100">
             <small>19,00</small>
             <br/>
             <small>9</small> <b>F</b>
@@ -191,7 +196,7 @@
             <br/>
             <small>Fluor</small>
         </td>
-        <td align="center" bgcolor="yellow" width="80px" height="100">
+        <td align="center" class="vzacne_plyny" width="80px" height="100">
             <small>20,18</small>
             <br/>
             <small>10</small> <b>Ne</b>
@@ -204,9 +209,9 @@
     <!-- 3. row of the periodic table -->
     <tr>
         <td align="right">
-            3
+            <b>3</b>
         </td>
-        <td align="center" bgcolor="cd5c5c" width="80px" height="100">
+        <td align="center" class="alkalicke_kovy" width="80px" height="100">
             <small>22,99</small>
             <br/>
             <small>11</small> <b>Na</b>
@@ -215,7 +220,7 @@
             <br/>
             <small>Sodík</small>
         </td>
-        <td align="center" bgcolor="#6495ed" width="80px" height="100">
+        <td align="center" class="kovy" width="80px" height="100">
             <small>24,31</small>
             <br/>
             <small>12</small> <b>Mg</b>
@@ -254,7 +259,7 @@
         <td align="center">
             <b>12</b> <br/> II. B
         </td>
-        <td align="center" bgcolor="#6495ed" width="80px" height="100">
+        <td align="center" class="kovy" width="80px" height="100">
             <small>26,98</small>
             <br/>
             <small>13</small> <b>Al</b>
@@ -263,7 +268,7 @@
             <br/>
             <small>Hliník</small>
         </td>
-        <td align="center" bgcolor="#add8e6" width="80px" height="100">
+        <td align="center" class="polokovy" width="80px" height="100">
             <small>28,09</small>
             <br/>
             <small>14</small> <b>Si</b>
@@ -272,7 +277,7 @@
             <br/>
             <small>Křemík</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>30,97</small>
             <br/>
             <small>15</small> <b>P</b>
@@ -281,7 +286,7 @@
             <br/>
             <small>Fosfor</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>32,05</small>
             <br/>
             <small>16</small> <b>S</b>
@@ -290,7 +295,7 @@
             <br/>
             <small>Síra</small>
         </td>
-        <td align="center" bgcolor="blue" width="80px" height="100">
+        <td align="center" class="halogeny" width="80px" height="100">
             <small>35,45</small>
             <br/>
             <small>17</small> <b>Cl</b>
@@ -299,7 +304,7 @@
             <br/>
             <small>Chlór</small>
         </td>
-        <td align="center" bgcolor="yellow" width="80px" height="100">
+        <td align="center" class="vzacne_plyny" width="80px" height="100">
             <small>39,95</small>
             <br/>
             <small>18</small> <b>Ar</b>
@@ -314,7 +319,7 @@
         <td align="right">
             <b>4</b>
         </td>
-        <td align="center" bgcolor="cd5c5c" width="80px" height="100">
+        <td align="center" class="alkalicke_kovy" width="80px" height="100">
             <small>39,10</small>
             <br/>
             <small>19</small> <b>K</b>
@@ -323,7 +328,7 @@
             <br/>
             <small>Draslík</small>
         </td>
-        <td align="center" bgcolor="orange" width="80px" height="100">
+        <td align="center" class="kovy_alkalickych_zemin" width="80px" height="100">
             <small>40,08</small>
             <br/>
             <small>20</small> <b>Ca</b>
@@ -332,7 +337,7 @@
             <br/>
             <small>Vápník</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>44,96</small>
             <br/>
             <small>21</small> <b>Sc</b>
@@ -341,7 +346,7 @@
             <br/>
             <small>Skandium</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>47,88</small>
             <br/>
             <small>22</small> <b>Ti</b>
@@ -350,7 +355,7 @@
             <br/>
             <small>Titan</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>50,94</small>
             <br/>
             <small>23</small> <b>V</b>
@@ -359,7 +364,7 @@
             <br/>
             <small>Vanad</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>52,00</small>
             <br/>
             <small>24</small> <b>Cr</b>
@@ -368,7 +373,7 @@
             <br/>
             <small>Chrom</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>54,94</small>
             <br/>
             <small>25</small> <b>Mn</b>
@@ -377,7 +382,7 @@
             <br/>
             <small>Mangan</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>55,58</small>
             <br/>
             <small>26</small> <b>Fe</b>
@@ -386,7 +391,7 @@
             <br/>
             <small>Železo</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>58,93</small>
             <br/>
             <small>27</small> <b>Co</b>
@@ -395,7 +400,7 @@
             <br/>
             <small>Kobalt</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>58,69</small>
             <br/>
             <small>28</small> <b>Ni</b>
@@ -404,7 +409,7 @@
             <br/>
             <small>Nikl</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>63,55</small>
             <br/>
             <small>29</small> <b>Cu</b>
@@ -413,7 +418,7 @@
             <br/>
             <small>Měď</small>
         </td>
-        <td align="center" bgcolor="#9370db" width="80px" height="100">
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
             <small>65,18</small>
             <br/>
             <small>30</small> <b>Zn</b>
@@ -422,7 +427,7 @@
             <br/>
             <small>Zinek</small>
         </td>
-        <td align="center" bgcolor="#6495ed" width="80px" height="100">
+        <td align="center" class="kovy" width="80px" height="100">
             <small>69,72</small>
             <br/>
             <small>31</small> <b>Ga</b>
@@ -431,7 +436,7 @@
             <br/>
             <small>Galium</small>
         </td>
-        <td align="center" bgcolor="#add8e6" width="80px" height="100">
+        <td align="center" class="polokovy" width="80px" height="100">
             <small>72,61</small>
             <br/>
             <small>32</small> <b>Ge</b>
@@ -440,7 +445,7 @@
             <br/>
             <small>Germanium</small>
         </td>
-        <td align="center" bgcolor="#add8e6" width="80px" height="100">
+        <td align="center" class="polokovy" width="80px" height="100">
             <small>74,92</small>
             <br/>
             <small>33</small> <b>As</b>
@@ -449,7 +454,7 @@
             <br/>
             <small>Arsen</small>
         </td>
-        <td align="center" bgcolor="#9acd32" width="80px" height="100">
+        <td align="center" class="nekovy" width="80px" height="100">
             <small>78,96</small>
             <br/>
             <small>34</small> <b>Se</b>
@@ -458,7 +463,7 @@
             <br/>
             <small>Selen</small>
         </td>
-        <td align="center" bgcolor="blue" width="80px" height="100">
+        <td align="center" class="halogeny" width="80px" height="100">
             <small>79,90</small>
             <br/>
             <small>35</small> <b>Br</b>
@@ -467,7 +472,7 @@
             <br/>
             <small>Brom</small>
         </td>
-        <td align="center" bgcolor="yellow" width="80px" height="100">
+        <td align="center" class="vzacne_plyny" width="80px" height="100">
             <small>83,80</small>
             <br/>
             <small>36</small> <b>Kr</b>
@@ -477,6 +482,173 @@
         </td>
     </tr>
     <!-- the end of 4. row of periodic table -->
+    <!-- start of the 5. row of periodic table -->
+    <tr>
+        <td align="right" width="15" height="100" >
+            <b>5</b>
+        </td>
+        <td align="center" class="alkalicke_kovy" width="80px" height="100">
+           <small>85,47</small>
+            <br/>
+            <small>37</small> <b>Rb</b>
+            <br/>
+            <small>0,89</small>
+            <br/>
+            <small>Rubidium</small>
+        </td>
+        <td align="center" class="kovy_alkalickych_zemin" width="80px" height="100">
+            <small>87,62</small>
+            <br/>
+            <small>38</small> <b>Sr</b>
+            <br/>
+            <small>0,99</small>
+            <br/>
+            <small>Stroncium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>88,91</small>
+            <br/>
+            <small>39</small> <b>Y</b>
+            <br/>
+            <small>1,10</small>
+            <br/>
+            <small>Ytrium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>91,22</small>
+            <br/>
+            <small>40</small> <b>ZR</b>
+            <br/>
+            <small>1,20</small>
+            <br/>
+            <small>Zirconium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>92,91</small>
+            <br/>
+            <small>41</small> <b>Nb</b>
+            <br/>
+            <small>1,20</small>
+            <br/>
+            <small>Niobium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>95,94</small>
+            <br/>
+            <small>42</small> <b>Mo</b>
+            <br/>
+            <small>1,30</small>
+            <br/>
+            <small>Molybden</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>98</small>
+            <br/>
+            <small>43</small> <b>Tc</b>
+            <br/>
+            <small>1,40</small>
+            <br/>
+            <small>Technecium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>101,07</small>
+            <br/>
+            <small>44</small> <b>Ru</b>
+            <br/>
+            <small>1,40</small>
+            <br/>
+            <small>Ruthenium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>102,91</small>
+            <br/>
+            <small>45</small> <b>Rh</b>
+            <br/>
+            <small>1,40</small>
+            <br/>
+            <small>Rhodium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>106,42</small>
+            <br/>
+            <small>46</small> <b>Pd</b>
+            <br/>
+            <small>1,30</small>
+            <br/>
+            <small>Paladium</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>107,87</small>
+            <br/>
+            <small>47</small> <b>Ag</b>
+            <br/>
+            <small>1,40</small>
+            <br/>
+            <small>Stříbro</small>
+        </td>
+        <td align="center" class="prechodne_kovy" width="80px" height="100">
+            <small>112,41</small>
+            <br/>
+            <small>48</small> <b>Cd</b>
+            <br/>
+            <small>1,50</small>
+            <br/>
+            <small>Kadmium</small>
+        </td>
+        <td align="center" class="kovy" width="80px" height="100">
+            <small>114,82</small>
+            <br/>
+            <small>49</small> <b>In</b>
+            <br/>
+            <small>1,50</small>
+            <br/>
+            <small>Indiium</small>
+        </td>
+        <td align="center" class="kovy" width="80px" height="100">
+            <small>118,71</small>
+            <br/>
+            <small>50</small> <b>Sn</b>
+            <br/>
+            <small>1,70</small>
+            <br/>
+            <small>Cín</small>
+        </td>
+        <td align="center" class="polokovy" width="80px" height="100">
+            <small>121,75</small>
+            <br/>
+            <small>51</small> <b>Sb</b>
+            <br/>
+            <small>1,80</small>
+            <br/>
+            <small>Antimon</small>
+        </td>
+        <td align="center" class="polokovy" width="80px" height="100">
+            <small>127,60</small>
+            <br/>
+            <small>52</small> <b>Te</b>
+            <br/>
+            <small>2,00</small>
+            <br/>
+            <small>Tellur</small>
+        </td>
+        <td align="center" class="halogeny" width="80px" height="100">
+            <small>126,90</small>
+            <br/>
+            <small>53</small> <b>I</b>
+            <br/>
+            <small>2,20</small>
+            <br/>
+            <small>Jód</small>
+        </td>
+        <td align="center" class="vzacne_plyny" width="80px" height="100">
+            <small>131,29</small>
+            <br/>
+            <small>54</small> <b>Xe</b>
+            <br/>
+            <br/>
+            <small>Xenon</small>
+        </td>
+    </tr>
 </table>
 </body>
 </html>
